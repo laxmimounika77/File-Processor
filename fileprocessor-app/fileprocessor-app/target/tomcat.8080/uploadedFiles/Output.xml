@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<xml> 
+<filesystem> 
+<file name="File1.txt">&lt;xml&gt;hello We are united  &amp;&lt;xml/&gt;</file>
+ <file name="File2.txt">hello we are manchester </file> 
+ </filesystem> 
+ <Compilation Debug="true" language="Java" version="1.8"> 
+ <LibraryDirectory name="Desktop"/> 
+ <LibraryDirectory name="outputNext"/> 
+ <IncludeDirectory name="java.util.Vector"/> 
+ <IncludeDirectory name="java.io.File"/> 
+ <Optimization level="high"/> </Compilation> 
+ <TestSet name="EECS"/>
+ </xml>
